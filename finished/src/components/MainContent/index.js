@@ -18,7 +18,6 @@ const MainContent = ({ provider }) => {
     });
     if (requestedAccount[0].length) {
       setAccount(requestedAccount);
-      console.log(account)
       return;
     }
     throw new Error(requestedAccount);

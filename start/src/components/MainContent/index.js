@@ -13,7 +13,7 @@ const MainContent = ({ provider }) => {
   const { ethereum } = window;
 
   const requestAccounts = async () => {
-    // Connect wallet to our app. docs.metamas.io
+    // Connect wallet to our app. docs.metamask.io
   }
 
   const fetchGreeting = async () => {
@@ -44,7 +44,7 @@ const MainContent = ({ provider }) => {
   return (
     <div>
       <h1>Greeting Dapp</h1>
-      <button className="waves-effect waves-light btn" onClick={requestAccounts}>Connect App</button>
+      {/* <button className="waves-effect waves-light btn" onClick={requestAccounts}>Connect App</button> */}
       <p><strong>{text}</strong></p>
       <button className="waves-effect waves-light btn" onClick={fetchGreeting}>Fetch Greeting</button>
       <input
